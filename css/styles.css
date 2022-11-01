@@ -143,12 +143,14 @@ ul {
 
 /* works and Staff */
 
-.section {
-    background-color: var(--button-bg-color);
-}
-
 .section-works {
     margin-bottom: 94px;
+}
+
+.section-staff {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var(--button-bg-color);
 }
 
 .section-title {
@@ -212,6 +214,11 @@ ul {
 
 /* filter */
 
+.filter {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
 .filter a {
     text-decoration: none;
 }
@@ -245,7 +252,14 @@ ul {
 /* Footer */
 
 .section-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--hero-bg-color);
+}
+
+.footer-title {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .list-contacts .link-map {
