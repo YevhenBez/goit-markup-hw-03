@@ -10,6 +10,22 @@
     --primary-white-color: #F5F5F5;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 .page {
     color: var(--primary-text-color);
 
@@ -17,8 +33,11 @@
     letter-spacing: 0.03em;
 }
 
-ul {
-    list-style: none;
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 .logo {
