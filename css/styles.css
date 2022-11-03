@@ -105,10 +105,11 @@ ul {
     background-color: var(--hero-bg-color);
     text-align: center;
     margin-bottom: 94px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
-    margin-top: 0;
     margin-bottom: 30px;
     color: var(--button-accent-color);
 
@@ -143,7 +144,6 @@ ul {
 }
 
 .features-list .title {
-    margin-top: 0;
     margin-bottom: 10px;
     color: var(--title-text-color);
 
@@ -152,8 +152,6 @@ ul {
 }
 
 .features-list .text {
-    margin-top: 0;
-    margin-bottom: 0;
 
     font-weight: 400;
     font-size: 14px;
@@ -173,7 +171,6 @@ ul {
 }
 
 .section-title {
-    margin-top: 0;
     margin-bottom: 50px;
     color: var(--title-text-color);
 
@@ -183,18 +180,17 @@ ul {
 }
 
 .staff .staff-title {
-    margin-top: 30px;
     margin-bottom: 10px;
+    padding-top: 30px;
     color: var(--title-text-color);
 
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
+    
 }
 
 .staff .text {
-    margin-top: 0;
-    margin-bottom: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -234,8 +230,8 @@ ul {
 /* filter */
 
 .filter {
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .filter a {
@@ -243,8 +239,8 @@ ul {
 }
 
 .filter-title {
-    margin-top: 20px;
     margin-bottom: 4px;
+    padding-top: 20px;
     color: var(--title-text-color);
 
     font-size: 18px;
@@ -254,8 +250,6 @@ ul {
 }
 
 .filter-text {
-    margin-top: 0;
-    margin-bottom: 0;
     color: var(--primary-text-color);
 
     font-weight: 400;
@@ -274,11 +268,6 @@ ul {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--hero-bg-color);
-}
-
-.footer-title {
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 .list-contacts .link-map {
