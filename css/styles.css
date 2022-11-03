@@ -41,6 +41,7 @@ ul {
 }
 
 .logo {
+    /* margin-right: 93px; */
     color: var(--accent-color);
 
     font-family: Raleway, sans-serif;
@@ -61,7 +62,27 @@ ul {
 
 /* Site nav */
 
+.container-header {
+    display: flex;
+    align-items: center;
+}
+
+.nav-header {
+    margin-left: 93px;
+}
+
+.site-nav {
+    display: flex;
+}
+
+.site-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
+
 .site-nav a {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
     color: var(--title-text-color);
 
     font-weight: 500;
@@ -82,7 +103,19 @@ ul {
     color: var(--accent-color);
 }
 
-.list-contacts a {
+.contacts-list {
+    display: flex;
+    margin-left: auto;
+}
+
+.contacts-list .item + .item {
+    margin-left: 50px;
+}
+
+.contacts-list a {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
     color: var(--primary-text-color);
 
     font-weight: 500;
@@ -93,9 +126,9 @@ ul {
     text-decoration: none;
 }
 
-.list-contacts a:hover,
-.list-contacts a:focus,
-.list-contacts a:active {
+.contacts-list a:hover,
+.contacts-list a:focus,
+.contacts-list a:active {
     color: var(--accent-color);
 }
 
@@ -143,6 +176,18 @@ ul {
     margin-bottom: 94px;
 }
 
+.features-list {
+    display: flex;
+}
+
+.feature-item {
+    width: 270px;
+}
+
+.features-list .feature-item + .feature-item {
+    margin-left: 30px;
+}
+
 .features-list .title {
     margin-bottom: 10px;
     color: var(--title-text-color);
@@ -164,6 +209,14 @@ ul {
     margin-bottom: 94px;
 }
 
+.list-works {
+    display: flex;
+}
+
+.list-works .item + .item {
+    margin-left: 30px;
+}
+
 .section-staff {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -176,6 +229,18 @@ ul {
 
     font-size: 36px;
     line-height: 1.16;
+    text-align: center;
+}
+
+.staff {
+    display: flex;
+}
+
+.staff .item + .item {
+    margin-left: 30px;
+}
+
+.staff .item {
     text-align: center;
 }
 
@@ -270,6 +335,15 @@ ul {
     background-color: var(--hero-bg-color);
 }
 
+.footer-address {
+    padding-top: 20px;
+}
+
+.footer-map,
+.footer-mail {
+    margin-bottom: 9px;
+}
+
 .list-contacts .link-map {
     color: var(--button-accent-color);
 }
@@ -286,3 +360,4 @@ ul {
     font-size: 14px;
     line-height: 1.71;
 }
+
