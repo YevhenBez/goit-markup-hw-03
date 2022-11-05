@@ -62,6 +62,10 @@ ul {
 
 /* Site nav */
 
+.page-header {
+    border-bottom: 1px solid #ECECEC;
+}
+
 .container-header {
     display: flex;
     align-items: center;
