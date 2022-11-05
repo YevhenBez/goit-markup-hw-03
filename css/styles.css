@@ -137,7 +137,6 @@ ul {
 .hero {
     background-color: var(--hero-bg-color);
     text-align: center;
-    margin-bottom: 94px;
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -173,7 +172,8 @@ ul {
 /* Features */
 
 .features {
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .features-list {
@@ -206,7 +206,7 @@ ul {
 /* works and Staff */
 
 .section-works {
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 .list-works {
@@ -215,6 +215,12 @@ ul {
 
 .list-works .item + .item {
     margin-left: 30px;
+}
+
+.list-works .item {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .section-staff {
