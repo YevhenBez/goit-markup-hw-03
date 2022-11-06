@@ -31,6 +31,11 @@ ul {
     list-style: none;
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .page {
     color: var(--primary-text-color);
 
@@ -180,11 +185,6 @@ ul {
 
 /* Features */
 
-.features {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 .features-list {
     display: flex;
 }
@@ -215,8 +215,8 @@ ul {
 /* works and Staff */
 
 .section-works {
-    padding-bottom: 94px;
-}
+    padding-top: 0px;
+}    
 
 .list-works {
     display: flex;
@@ -233,8 +233,6 @@ ul {
 }
 
 .section-staff {
-    padding-top: 94px;
-    padding-bottom: 94px;
     background-color: var(--button-bg-color);
 }
 
@@ -308,12 +306,6 @@ ul {
 }
 
 /* filter */
-
-.filter {
-    padding-top: 94px;
-    padding-bottom: 94px;
-    
-}
 
 .filter a {
     text-decoration: none;
