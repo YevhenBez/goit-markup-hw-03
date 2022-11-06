@@ -328,7 +328,7 @@ ul {
 
 .filter-title {
     margin-bottom: 4px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     color: var(--title-text-color);
 
     font-size: 18px;
@@ -348,8 +348,8 @@ ul {
 
 .filter-list {
     display: flex;
+    justify-content: center;
     gap: 8px;
-    padding-left: 297px;
     margin-bottom: 34px;
 }
 
@@ -368,7 +368,7 @@ ul {
 .edition,
 .lab,
 .business {
-    padding: 0px 24px 20px 24px;
+    padding: 20px 24px;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
@@ -382,8 +382,12 @@ ul {
     background-color: var(--hero-bg-color);
 }
 
-.footer-address {
-    padding-top: 20px;
+.box-logo {
+    margin-bottom: 20px;
+}
+
+.list-contacts a {
+    text-decoration: none;
 }
 
 .footer-map,
