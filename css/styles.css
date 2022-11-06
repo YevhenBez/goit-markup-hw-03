@@ -20,6 +20,11 @@ p {
     margin: 0;
 }
 
+.img-team,
+.img-filter {
+    display: block;
+}
+
 ul {
     margin: 0;
     padding: 0;
