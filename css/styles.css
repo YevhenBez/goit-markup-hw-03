@@ -380,7 +380,8 @@ ul {
     background-color: var(--hero-bg-color);
 }
 
-.box-logo {
+.logo-footer {
+    display: block;
     margin-bottom: 20px;
 }
 
